@@ -1,0 +1,46 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Caneta BIC Preta",
+      "price": 5.89
+    },
+    {
+      "id": 2,
+      "name": "Notebook MacBook PRO",
+      "price": 12000.89
+    },
+    {
+      "id": 3,
+      "name": "Samsung S20+",
+      "price": 5000.89
+    },
+    {
+      "id": 4,
+      "name": "Geladeira Brastemp Frost Free",
+      "price": "3000"
+    }
+  ],
+  "services": [
+    {
+      "id": 1,
+      "name": "Troca de Tinta da Caneta",
+      "price": 5.89
+    },
+    {
+      "id": 2,
+      "name": "Manutenção de Notebook",
+      "price": 12000.89
+    },
+    {
+      "id": 3,
+      "name": "Manutenção de Celular",
+      "price": 5000.89
+    },
+    {
+      "id": 4,
+      "name": "Manutenção de Geladeira",
+      "price": "3000"
+    }
+  ]
+}
