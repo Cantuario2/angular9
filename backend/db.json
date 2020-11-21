@@ -3,7 +3,7 @@
     {
       "id": 1,
       "name": "Caneta BIC Preta",
-      "price": 5.89
+      "price": "5.89"
     },
     {
       "id": 2,
@@ -14,21 +14,6 @@
       "id": 3,
       "name": "Samsung S20+",
       "price": 5000.89
-    },
-    {
-      "id": 4,
-      "name": "Geladeira Brastemp Frost Free",
-      "price": "3000"
-    },
-    {
-      "name": "Antônio Luiz Cantuário Júnior",
-      "price": "999999999,99",
-      "id": 5
-    },
-    {
-      "name": "Antônio Luiz Cantuário Júnior",
-      "price": "999999999,99",
-      "id": 6
     }
   ],
   "services": [

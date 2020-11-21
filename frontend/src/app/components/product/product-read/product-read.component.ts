@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { HeaderService } from '../../template/header/header.service';
 import { Product } from '../product.model';
 import { ProductService } from '../product.service';
 
@@ -10,13 +11,19 @@ import { ProductService } from '../product.service';
 export class ProductReadComponent implements OnInit {
 
   products: Product [];
+  displayedColumns = ['id', 'name', 'price', 'action'];
 
-  constructor(private productService: ProductService) {}
+  constructor(private productService: ProductService, private headerSevice: HeaderService) {
+    headerSevice.headerData = {
+      title: 'Produtos',
+      icon: 'storefront',
+      routeUrl: '/products'
+    }
+  }
 
   ngOnInit(): void {
     this.productService.read().subscribe(products => {
       this.products = products;
-      console.log(this.products)
     });
   }
 
